@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/common.css">
-    <link rel="stylesheet" href="styles/index/index.css">
+    <link rel="stylesheet" href="styles/crew/crew.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -25,33 +25,44 @@
             <img class="header__logo" src="assets/shared/logo.svg" alt="">
             <hr class="header__hr">
             <nav class="header__nav">
-                <a href="index.html" class="nav__a active"><span class="nav__span">00</span>HOME</a>
+                <a href="index.html" class="nav__a"><span class="nav__span">00</span>HOME</a>
                 <a href="destination.html" class="nav__a"><span class="nav__span">01</span>DESTINATION</a>
-                <a href="crew.html" class="nav__a"><span class="nav__span">02</span>CREW</a>
+                <a href="crew.html" class="nav__a active"><span class="nav__span">02</span>CREW</a>
                 <a href="#" class="nav__a"><span class="nav__span">03</span>TECHNOLOGY</a>
             </nav>
             <img id="menutoggle" src="assets/shared/icon-hamburger.svg" alt="">
         </header>
-        <section class="main__section">
-            <div class="main__div">
-                <h2 class="main__h2">SO, YOU WANT TO TRAVEL TO</h2>
-                <h1 class="main__h1">SPACE</h1>
-                <p class="main__p">Let’s face it; if you want to go to space, you might as well genuinely go to outer
-                    space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a
-                    truly out of this world experience!</p>
+        <h2 class="main__h2"><span class="main__h2__span">02</span>Meet your crew</h2>
+
+
+        <section class="main__section section--crew">
+            <div class="section__div">
+                <div>
+                    <h3 id="section_h3"></h3>
+                    <h1 id="section_h1"></h1>
+                    <p id="section_p"></p>
+                </div>
+                <div class="crew__div">
+                    <span class="div__span--btn active" id="crew_btn1"></span>
+                    <span class="div__span--btn" id="crew_btn2"></span>
+                    <span class="div__span--btn" id="crew_btn3"></span>
+                    <span class="div__span--btn" id="crew_btn4"></span>
+                </div>
             </div>
-            <a class="main__a" href="">EXPLORE</a>
+            <img id="crew_img" src="" alt="">
         </section>
+
+
     </main>
     <section id="menu-mobile">
         <nav class="menu-mobile__nav">
-            <a href="index.html" class="menu-mobile__a active"><span class="menu-mobile__span">00</span>HOME</a>
+            <a href="index.html" class="menu-mobile__a"><span class="menu-mobile__span">00</span>HOME</a>
             <a href="destination.html" class="menu-mobile__a"><span class="menu-mobile__span">01</span>DESTINATION</a>
-            <a href="crew.html" class="menu-mobile__a"><span class="menu-mobile__span">02</span>CREW</a>
+            <a href="crew.html" class="menu-mobile__a active"><span class="menu-mobile__span">02</span>CREW</a>
             <a href="#" class="menu-mobile__a"><span class="menu-mobile__span">03</span>TECHNOLOGY</a>
         </nav>
     </section>
-    <script src="script/index.js"></script>
+    <script src="script/crew.js"></script>
 </body>
 
 </html>
